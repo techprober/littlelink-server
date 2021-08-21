@@ -2,7 +2,11 @@
 
 This project is based on the great work from littlelink It takes the same simple approach to a link page and hosts it within a nodeJS server containerized for you to use. Now, customizing LittleLink with littlelink-server is as easy as passing in some environment variables. If you need help configuring this, please see this video that explains everything.
 
-# What is LittleLink? 
+# Reference
+
+This repo is a clone from https://github.com/techno-tim/littlelink-server
+
+# What is LittleLink?
 
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
@@ -11,7 +15,7 @@ and [many.link](https://www.google.com). LittleLink was built using [Skeleton](h
 
 ![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
 
-LittleLink has more than 20 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. 
+LittleLink has more than 20 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing.
 
 ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 

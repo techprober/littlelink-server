@@ -17,6 +17,7 @@ services:
       - BIO=Hey! Just a place where you can connect with me!
       - WORDPRESS=https://www.hikariai.net
       - GITHUB=https://github.com/yqlbu
+      - LINKED_IN=http://www.linkedin.com/in/chinglong-kevin-yu
       - DISCORD=https://discord.gg/95K3J3a4
       - EMAIL=kevinyu211@yahoo.com
       # - TWITTER=https://twitter.com/TechnoTimLive
@@ -27,7 +28,6 @@ services:
       # - KIT=https://kit.co/TechnoTim
       # - FACEBOOK=https://facebook.com
       # - FACEBOOK_MESSENGER=https://facebook.com
-      # - LINKED_IN=https://linkedin.com
       # - PRODUCT_HUNT=https://www.producthunt.com/
       # - SNAPCHAT=https://www.snapchat.com/
       # - SPOTIFY=https://www.spotify.com/

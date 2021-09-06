@@ -20,13 +20,15 @@ services:
       - LINKED_IN=http://www.linkedin.com/in/chinglong-kevin-yu
       - DISCORD=https://discord.gg/95K3J3a4
       - EMAIL=kevinyu211@yahoo.com
-      # - TWITTER=https://twitter.com/TechnoTimLive
-      # - INSTAGRAM=https://www.instagram.com/techno.tim
-      # - YOUTUBE=https://www.youtube.com/channel/UCOk-gHyjcWZNj3Br4oxwh0A
-      # - TWITCH=https://www.twitch.tv/technotim/
-      # - TIKTOK=https://www.tiktok.com/@technotim
-      # - KIT=https://kit.co/TechnoTim
-      # - FACEBOOK=https://facebook.com
+      - TELEGRAM=https://t.me/hikariai_channel
+      - FOOTER=Thanks for stopping by!
+      # - TWITTER=
+      # - INSTAGRAM=
+      # - YOUTUBE=
+      # - TWITCH=
+      # - TIKTOK=
+      # - KIT=
+      # - FACEBOOK=
       # - FACEBOOK_MESSENGER=https://facebook.com
       # - PRODUCT_HUNT=https://www.producthunt.com/
       # - SNAPCHAT=https://www.snapchat.com/
@@ -37,13 +39,11 @@ services:
       # - EMAIL_ALT=you@example.com
       # - SOUND_CLOUD=https://souncloud.com
       # - FIGMA=https://figma.com
-      # - TELEGRAM=https://telegram.org/
       # - TUMBLR=https://www.tumblr.com/
       # - STEAM=https://steamcommunity.com/
       # - VIMEO=https://vimeo.com/
       # - GOODREADS=https://www.goodreads.com/
       # - SKOOB=https://www.skoob.com.br/
-      - FOOTER=Thanks for stopping by!
     ports:
       - 8080:3000
     restart: unless-stopped

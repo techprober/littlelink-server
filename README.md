@@ -14,11 +14,11 @@ docker-compose up -d --force-recreate
 
 ### Deploy with kubectl
 
-coming ...
+coming soon
 
 ### Pipeline CICD
 
-coming
+coming soon
 
 # Reference
 

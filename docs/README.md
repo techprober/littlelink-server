@@ -6,8 +6,8 @@
 
 ## Contributors
 
-Special thanks goes to all [ contributors ](https://github.com/TechProber/cloud-estate/graphs/contributors). If you would like to contribute, please see the [instructions](https://github.com/TechProber/cloud-estate/blob/master/docs/contribute.md).
+Special thanks goes to all [ contributors ](https://github.com/TechProber/littlelink-server/graphs/contributors). If you would like to contribute, please see the [instructions](https://github.com/TechProber/littlelink-server/blob/master/docs/contribute.md).
 
 ## License
 
-[MIT (C) TechProber](https://github.com/yqlbu/TechProber/cloud-estate/blob/master/LICENSE)
+[MIT (C) TechProber](https://github.com/TechProber/littlelink-server/blob/master/LICENSE)

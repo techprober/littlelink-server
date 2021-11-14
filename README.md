@@ -1,28 +1,16 @@
-# littlelink-server-kubernetes
+# Littlelink Server Microservice
 
 This project is based on the great work from littlelink It takes the same simple approach to a link page and hosts it within a nodeJS server containerized for you to use. Now, customizing LittleLink with littlelink-server is as easy as passing in some environment variables. If you need help configuring this, please see this video that explains everything.
 
-# Deployment
+## Deployment
 
 This project is a reference for deploying straight to `Kubernetes Cluster`, but you can still deploy it locally with `docker-compose`
 
-### Deploy with docker-compose
+## Deploy with docker-compose
 
 ```bash
 docker-compose up -d --force-recreate
 ```
-
-### Deploy with kubectl
-
-coming soon
-
-### Pipeline CICD
-
-coming soon
-
-# Reference
-
-This repo is a clone from https://github.com/techno-tim/littlelink-server
 
 # What is LittleLink?
 

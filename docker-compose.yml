@@ -2,6 +2,7 @@
 version: "3"
 services:
   little-link:
+    build: .
     image: littlelink-server:latest
     container_name: littlelink-server
     environment:

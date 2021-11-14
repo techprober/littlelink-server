@@ -331,6 +331,14 @@ function useEnv(document) {
     wordpressEl.remove();
   }
 
+  var hugoEl = document.getElementById("hugo");
+  if (env.HUGO) {
+    hugoEl.href = env.HUGO;
+  } else {
+    hugoEl.nextElementSibling.remove();
+    hugoEl.remove();
+  }
+
   var goodreadsEl = document.getElementById("goodreads");
   if (env.GOODREADS) {
     goodreadsEl.href = env.GOODREADS;

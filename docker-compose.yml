@@ -6,22 +6,20 @@ services:
     image: littlelink-server:latest
     container_name: littlelink-server
     environment:
-      - META_TITLE=Hikariai
-      - META_DESCRIPTION=Kevin Yu Link page
-      - META_AUTHOR=Kevin Yu
+      - META_TITLE=TechProber
+      - META_DESCRIPTION=TechProber Link page
+      - META_AUTHOR=TechProber
       - THEME=Dark
-      - FAVICON_URL=https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrmjjlvckvsb/b/bucket-20210817-2342/o/littleserver-link202108211630.jpg
-      - AVATAR_URL=https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrmjjlvckvsb/b/bucket-20210817-2342/o/littleserver-link202108211630.jpg
-      - AVATAR_2X_URL=https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrmjjlvckvsb/b/bucket-20210817-2342/o/littleserver-link202108211630.jpg
-      - AVATAR_ALT=Kevin Yu Profile Pic
-      - NAME=Hikariai
+      - FAVICON_URL=https://avatars.githubusercontent.com/u/93818962?s=400&u=13fa537dbfd8bf0715c17109c4d8d6e23bbc359a&v=4
+      - AVATAR_URL=https://avatars.githubusercontent.com/u/93818962?s=400&u=13fa537dbfd8bf0715c17109c4d8d6e23bbc359a&v=4
+      - AVATAR_2X_URL=https://avatars.githubusercontent.com/u/93818962?s=400&u=13fa537dbfd8bf0715c17109c4d8d6e23bbc359a&v=4
+      - AVATAR_ALT=TechProber Profile Pic
+      - NAME=TechProber
       - BIO=Hey! Just a place where you can connect with me!
-      - HUGO=https://www.hikariai.net
-      - GITHUB=https://github.com/yqlbu
-      - LINKED_IN=http://www.linkedin.com/in/chinglong-kevin-yu
+      - HUGO=https://github.com/TechProber
+      - GITHUB=https://github.com/TechProber
       - DISCORD=https://discord.gg/95K3J3a4
-      - EMAIL=kevinyu211@yahoo.com
-      - TELEGRAM=https://t.me/hikariai_channel
+      - TELEGRAM=https://t.me/joinchat/7AG3aEQ5I00wY2Q5
       - FOOTER=Thanks for stopping by!
       # - TWITTER=
       # - INSTAGRAM=
@@ -30,21 +28,21 @@ services:
       # - TIKTOK=
       # - KIT=
       # - FACEBOOK=
-      # - FACEBOOK_MESSENGER=https://facebook.com
-      # - PRODUCT_HUNT=https://www.producthunt.com/
-      # - SNAPCHAT=https://www.snapchat.com/
-      # - SPOTIFY=https://www.spotify.com/
-      # - REDDIT=https://www.reddit.com/
-      # - MEDIUM=https://medium.com
-      # - PINTEREST=https://www.pinterest.com/
-      # - EMAIL_ALT=you@example.com
-      # - SOUND_CLOUD=https://souncloud.com
-      # - FIGMA=https://figma.com
-      # - TUMBLR=https://www.tumblr.com/
-      # - STEAM=https://steamcommunity.com/
-      # - VIMEO=https://vimeo.com/
-      # - GOODREADS=https://www.goodreads.com/
-      # - SKOOB=https://www.skoob.com.br/
+      # - FACEBOOK_MESSENGER=
+      # - PRODUCT_HUNT=
+      # - SNAPCHAT=
+      # - SPOTIFY=
+      # - REDDIT=
+      # - MEDIUM=
+      # - PINTEREST=
+      # - EMAIL_ALT=
+      # - SOUND_CLOUD=
+      # - FIGMA=
+      # - TUMBLR=
+      # - STEAM=
+      # - VIMEO=
+      # - GOODREADS=
+      # - SKOOB=
     ports:
       - 3000:3000
     restart: unless-stopped

@@ -2,7 +2,7 @@
 version: "3"
 services:
   little-link:
-    image: hikariai/littlelink-server:latest
+    image: littlelink-server:latest
     container_name: littlelink-server
     environment:
       - META_TITLE=Hikariai
@@ -15,7 +15,7 @@ services:
       - AVATAR_ALT=Kevin Yu Profile Pic
       - NAME=Hikariai
       - BIO=Hey! Just a place where you can connect with me!
-      - WORDPRESS=https://www.hikariai.net
+      - HUGO=https://www.hikariai.net
       - GITHUB=https://github.com/yqlbu
       - LINKED_IN=http://www.linkedin.com/in/chinglong-kevin-yu
       - DISCORD=https://discord.gg/95K3J3a4
@@ -45,7 +45,7 @@ services:
       # - GOODREADS=https://www.goodreads.com/
       # - SKOOB=https://www.skoob.com.br/
     ports:
-      - 8080:3000
+      - 3000:3000
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
